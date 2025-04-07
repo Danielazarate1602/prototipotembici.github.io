@@ -1,0 +1,172 @@
+<Tembici Ellas>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tembici Ella</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #f5a9c9;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .main-banner {
+      background-image: url(https://www.pactoglobal-colombia.org/images/jch-optimize/ng/images_NoticiasHome_2022_Tembici__4be2e.webp);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .main-banner h2 {
+      font-size: 3em;
+    }
+
+    .main-banner button {
+      padding: 15px 30px;
+      background-color: #f15d5d;
+      border: none;
+      color: white;
+      font-size: 1.2em;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .feature-cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .feature-card {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .feature-card img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 15px;
+    }
+
+    .feature-card h4 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .feature-card p {
+      font-size: 1em;
+      color: #555;
+    }
+
+    .form-container {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+
+    .form-container form input, .form-container form textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .form-container form button {
+      padding: 15px 30px;
+      background-color: #f15d5d;
+      border: none;
+      color: white;
+      font-size: 1.2em;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tembici Ella</h1>
+    <p>Más que movilidad, es tu camino.</p>
+  </header>
+
+  <section class="main-banner">
+    <h2>Tembici Ella – Creadas para ti</h2>
+    <p>Explora nuestras nuevas funciones diseñadas por y para mujeres.</p>
+    <button>Explorar</button>
+  </section>
+
+  <section class="section">
+    <h3>Nuevas Funciones para Ti</h3>
+    <div class="feature-cards">
+      <div class="feature-card" onclick="alert('Ver rutas más seguras')">
+        <img src="https://cdn-icons-png.flaticon.com/512/608/608769.png">
+        <h4>Rutas Más Seguras</h4>
+        <p>Descubre las rutas seguras personalizadas para ti.</p>
+      </div>
+      <div class="feature-card" onclick="alert('Activar Seguridad 360°')">
+        <img src="https://cdn-icons-png.flaticon.com/512/2345/2345454.png">
+        <h4>Seguridad 360°</h4>
+        <p>Activa alertas y notificaciones en tiempo real.</p>
+      </div>
+      <div class="feature-card" onclick="alert('Unirse a Comunidad')">
+        <img src="https://bikeitau.com.br/wp-content/uploads/2021/08/tembici.vertical.rosa_-768x496.png" alt="Icono Comunidad">
+        <h4>Comunidad Tembici Ella</h4>
+        <p>Conéctate con otras mujeres y comparte experiencias.</p>
+      </div>
+      <div class="feature-card" onclick="alert('Descubre tu Bici Ideal')">
+        <img src="https://cdn-icons-png.flaticon.com/512/4779/4779082.png" alt="Icono Bici Ideal">
+        <h4>Descubre tu Bici Ideal</h4>
+        <p>Encuentra una bici que se adapte a tu estilo y necesidades.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-container">
+    <h3>¡Queremos saber tu opinión!</h3>
+    <p>Únete al grupo piloto y ayúdanos a crear mejores funcionalidades para ti.</p>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo electrónico" required>
+      <textarea rows="4" placeholder="¿Qué te gustaría ver en nuestra app?" required></textarea>
+      <button type="submit">Unirme al Grupo Piloto</button>
+    </form>
+  </section>
+
+</body>
+</html>
